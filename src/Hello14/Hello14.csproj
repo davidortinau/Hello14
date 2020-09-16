@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DefineConstants>TRACE;DEBUG;NETSTANDARD;NETSTANDARD2_0;__IOS__;</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.iOS">
+      <HintPath>..\..\..\..\..\Library\Frameworks\Xamarin.iOS.framework\Versions\13.99.0.262\lib\mono\Xamarin.iOS\Xamarin.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
