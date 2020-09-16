@@ -17,7 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.iOS">
-      <HintPath>..\..\..\..\..\Library\Frameworks\Xamarin.iOS.framework\Versions\13.99.0.262\lib\mono\Xamarin.iOS\Xamarin.iOS.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Library\Frameworks\Xamarin.iOS.framework\Versions\13.99.0.262\lib\mono\Xamarin.iOS\Xamarin.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
